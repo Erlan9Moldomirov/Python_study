@@ -6,12 +6,6 @@
 # d = (a + b) * c 
 # print(d)
 
-# a = 10
-# b = 3 
-# c = a + b
-
-# print(7 % 2)
-# print(7 ** 2)
 
 # a = 10
 # b = 5 
