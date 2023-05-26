@@ -1,4 +1,4 @@
-# Problem 15
+# Problem 
 
 # num1 = 17391
 # num2 = 546
