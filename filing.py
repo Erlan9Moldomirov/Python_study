@@ -47,20 +47,20 @@
 # for word in t_words:
 #     print(word)
 
-numbers = [19, 3, 24, 5, 7]
-file_name="users.txt"
-with open(file_name, "w") as file:
-    for number in numbers:
-        file.write(str(number)+ "\n")
-max_number = float ("-inf")
-min_number = float ("inf")
-with open(file_name, "r")as file:
-    for i in file:
-        number = int(i.strip())
-        max_number = max(max_number, number)
-        min_number = min(min_number, number)
-output_file = "result.txt"
-with open(output_file, "w") as file:
-    file.write("максимальное число:" + str (max_number) + " ")
-    file.write("минимальное число:" + str (min_number))
-print("максимальное и минимальное число записаны в файл", output_file)
+# numbers = [19, 3, 24, 5, 7]
+# file_name="users.txt"
+# with open(file_name, "w") as file:
+#     for number in numbers:
+#         file.write(str(number)+ "\n")
+# max_number = float ("-inf")
+# min_number = float ("inf")
+# with open(file_name, "r")as file:
+#     for i in file:
+#         number = int(i.strip())
+#         max_number = max(max_number, number)
+#         min_number = min(min_number, number)
+# output_file = "result.txt"
+# with open(output_file, "w") as file:
+#     file.write("максимальное число:" + str (max_number) + " ")
+#     file.write("минимальное число:" + str (min_number))
+# print("максимальное и минимальное число записаны в файл", output_file)
