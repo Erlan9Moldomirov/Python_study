@@ -40,26 +40,26 @@
 #     print(my_list[i])
 #     i += 1
 
-password = 123456
-count = 3
-Loged_in = False
+# password = 123456
+# count = 3
+# Loged_in = False
 
-while count > 0:
-    user_input = int(input("Введите пароль: "))
+# while count > 0:
+#     user_input = int(input("Введите пароль: "))
 
-    if user_input == password:
-        Loged_in = True
-        break
-    else: 
-        count -= 1
-        print("Неверный Пароль! Повторите попытку!")
-        if count > 0:
-            print(f"У вас осталось {count} попытки(ок)")
+#     if user_input == password:
+#         Loged_in = True
+#         break
+#     else: 
+#         count -= 1
+#         print("Неверный Пароль! Повторите попытку!")
+#         if count > 0:
+#             print(f"У вас осталось {count} попытки(ок)")
             
-if Loged_in:
-    print("Вход Выполнен")
-else:
-    print("У вас не осталось попыток!")
+# if Loged_in:
+#     print("Вход Выполнен")
+# else:
+#     print("У вас не осталось попыток!")
 
 
 # sum = 0

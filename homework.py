@@ -192,7 +192,7 @@
 #             count_less -= 1
 #             print("Неверный Пароль! Повторите попытку!")
 #             if count > 0:
-#                 print(f"У вас осталось {count} попытки(ок)")
+#                 print(f"У вас осталось {count_less} попытки")
             
 #     if logged_in:
 #         print("Вход Выполнен")
