@@ -101,3 +101,38 @@
 # if num % 5 == 0:
 #     print(num)
 
+# import sys
+
+# value1 = input()
+# value2 = input()
+
+# res1 = sys.getsizeof(value1)
+# res2 = sys.getsizeof(value2)
+
+# if res1 > res2:
+#     print("Первый объект занимает больше места чем второй")
+# elif res2 > res1:
+#     print("Второй объект занимает больше места чем первый")
+# else:
+#     print("Они равны")
+
+# import random
+# import string
+
+# def generate_password(length):
+#     characters = string.ascii_letters + string.digits
+#     password = ''.join(random.choice(characters) for _ in range(length))
+#     return password
+
+# N = int(input("Введите длину пароля: "))
+
+# password = generate_password(N)
+# print("Сгенерированный пароль:", password)
+
+# import datetime
+
+# current_date = datetime.date.today()
+
+# future_date = current_date + datetime.timedelta(days = 1000)
+
+# print("Дата через 1000 дней:", future_date)

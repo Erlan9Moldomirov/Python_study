@@ -128,3 +128,74 @@
 
 # *****
 
+# from random import shuffle
+
+# names = ["Aibek", "Joomart", "Adinai", "Ermek", "Atai", "Aslan", "Lyazat", "Salavat", "Daniyar", "Bolotbek", "Alymbek", "Dastan", "Maksat"]
+
+# shuffle(names)
+
+# total = 13  
+# num = 4  
+
+# team_size = total // num  
+# remainder = total % num  
+
+# teams = [] 
+
+# start = 0
+
+# for i in range(num):
+#     end = start + team_size 
+
+#     if i < remainder:
+#         end += 1 
+
+#     team = names[start:end]
+#     teams.append(team) 
+
+#     start = end 
+
+# for i, team in enumerate(teams):
+#     print(f"Команда {i+1}: {', '.join(team)}")
+
+# import datetime
+# currenttime = datetime.datetime.now()
+# print(f"Текущее время: {currenttime}")
+
+# NUMBERS = [1, 12, 123, 1234, 12345, 123456, 1234567, 12345678, 123456789]
+
+# for i in range(len(NUMBERS) - 1):
+#     num1 = NUMBERS[i]
+#     num2 = NUMBERS[i + 1]
+#     sum = num1 + num2
+#     print(f"Сумма чисел {num1} и {num2}: {sum}")
+
+# from time import sleep
+# for i in range(10):
+#     print(i)
+#     sleep(5)
+
+# from time import sleep
+# password = 123456
+# count = 3
+# logged_in = False
+
+# while count > 0 and not logged_in:
+#     count_less = count
+#     while count_less > 0:
+#         user_input = int(input("Введите пароль: "))
+
+#         if user_input == password:
+#             logged_in = True
+#             break
+#         else: 
+#             count_less -= 1
+#             print("Неверный Пароль! Повторите попытку!")
+#             if count > 0:
+#                 print(f"У вас осталось {count} попытки(ок)")
+            
+#     if logged_in:
+#         print("Вход Выполнен")
+#     else:
+#         print("У вас не осталось попыток!")
+#         sleep(5)
