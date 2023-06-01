@@ -51,14 +51,14 @@
 
 # *****
 
-a = {"apple", "banana", "mango", "avocado"}
-b = {"grape", "apple", "avocado", "peach"}
+# a = {"apple", "banana", "mango", "avocado"}
+# b = {"grape", "apple", "avocado", "peach"}
 
-print(a)
-print(b)
+# print(a)
+# print(b)
 
-a.add("orange")
-print(a)
+# a.add("orange")
+# print(a)
 
 # b.remove("apple")
 # print(b)
@@ -67,13 +67,13 @@ print(a)
 # a.discard("tomato")
 # print(a)
 
-result3 = a.difference(b)
-print(result3)
+# result3 = a.difference(b)
+# print(result3)
 
-result = a.intersection(b)
-result2 = a.intersection_update(b)
-print(result)
-print(result2)
+# result = a.intersection(b)
+# result2 = a.intersection_update(b)
+# print(result)
+# print(result2)
 
 # *****
 

@@ -191,3 +191,150 @@
 #     return number 
 # phone_number = gen_number() 
 # print("Сгенерированный номер", phone_number)
+
+# def main():
+#     result = 9 + 7
+#     return result
+# print(main)
+
+# def summ(*args):
+#     return sum(args)
+# print(summ(1, 6, 3))
+
+# def info(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key}: {value}")
+# info(name = "Erlan", age = 25)
+
+# def add(a, b):
+#     return a + b  
+# print(add(11, 12)) 
+
+# def substract(a, b):
+#     return a - b
+# print(substract(144, 121))
+
+# def multiply(a, b):
+#     return a * b
+# print(multiply(11, 12))
+
+# def divide(a, b):
+#     return a // b
+# print(divide(12, 2))
+
+# def sent(a):
+#     res = 0 
+#     for i in a:
+#         res += 1
+#     print(f"Предложение состоит из {res} элементов")
+#     return a
+# print(sent("One Piece is real!!"))
+
+# def count_characters(sentence):
+#     num = 0
+    
+#     for char in sentence:
+#         if char.isalpha():
+#             num += 1
+
+#     return num
+
+# sentence = input("Введите предложение: ")
+# character_count = count_characters(sentence)
+
+# print("Количество символов:", character_count)
+
+
+# import os
+# def menu():
+#     food = input()
+#     drink = input()
+
+#     desktop_path = os.path.join(os.path.expanduser("~"), "Рабочий стол")
+#     file_path = os.path.join(desktop_path, "menu.txt")
+
+#     with open(file_path, "w") as file:
+#         file.write(f"Ваш заказ: {food}, {drink}")
+
+# (menu())
+
+# import os
+
+# def dir(word):
+#     our_dir = os.getcwd()
+
+#     file_path = os.path.join(our_dir, f"{word}.py")
+
+#     with open(file_path, "w") as file:
+#         file.write("")
+
+# word = input()
+# dir(word)
+
+# def split(dict):
+#     keys = tuple(dict.keys)
+#     values = tuple(dict.values)
+#     return keys and values
+
+# dict = {'David': 'pogrammer', 'Jack': 'engineer', 'Max': 'dancer'}
+# k, v = split(dict)
+# print(f"Ключи - {k}")
+# print(f"Значения - {v}")
+
+
+# def listt(arg1, arg2):
+#     result = [arg1, arg2]
+#     return result
+
+# value1 = 'Begimai'
+# value2 = 39
+
+# res = listt(value1, value2)
+# print(res)
+
+# def count():
+#     num = int(input())
+#     for i in range(num):
+#         print(num)
+# count()
+
+# def data(name, money=5000):
+#     return f"{name} - {money}"
+
+# name = 'David'
+# money = 10000
+   
+# info = data(name, money)
+# print(info)
+
+# def generate_list():
+#     num = int(input())
+#     mylst = []
+#     for i in range(1, num+1):
+#         mylst.append(i)
+#     return mylst
+
+# print(generate_list())
+
+# lst = [4, 7, 2, 9, 9, 2, 4, 5, 6]
+# lst = list(set(lst))
+# lst.sort()
+# print(lst)
+
+
+# NUMBERS = [1, 12, 123, 1234, 12345, 123456, 1234567, 12345678, 123456789]
+
+# for i in range(len(NUMBERS) - 1):
+#     num1 = NUMBERS[i]
+#     num2 = NUMBERS[i + 1]
+#     sum = num1 + num2
+#     print(f"Сумма чисел {num1} и {num2}: {sum}")
+
+# from datetime import datetime
+# currenttime = datetime.now()
+# print(f"Текущее время: {currenttime.time()}")
+
+from time import sleep
+for i in range(10):
+    print(i + 1)
+    sleep(5)
