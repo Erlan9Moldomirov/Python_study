@@ -320,21 +320,3 @@
 # lst = list(set(lst))
 # lst.sort()
 # print(lst)
-
-
-# NUMBERS = [1, 12, 123, 1234, 12345, 123456, 1234567, 12345678, 123456789]
-
-# for i in range(len(NUMBERS) - 1):
-#     num1 = NUMBERS[i]
-#     num2 = NUMBERS[i + 1]
-#     sum = num1 + num2
-#     print(f"Сумма чисел {num1} и {num2}: {sum}")
-
-# from datetime import datetime
-# currenttime = datetime.now()
-# print(f"Текущее время: {currenttime.time()}")
-
-from time import sleep
-for i in range(10):
-    print(i + 1)
-    sleep(5)
