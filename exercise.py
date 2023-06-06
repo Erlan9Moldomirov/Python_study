@@ -27,14 +27,14 @@
 # print(names)
 
 
-number = [1, 2, [1, 2, 3], "house", 3.5]
-new = list(number)
-print(type(number))
-print(new)
-new[0] = 2
-print(new)
-number = tuple(new)
-print(number)
+# number = [1, 2, [1, 2, 3], "house", 3.5]
+# new = list(number)
+# print(type(number))
+# print(new)
+# new[0] = 2
+# print(new)
+# number = tuple(new)
+# print(number)
 
 # lst = [(1,2), (3,4), (5,6), (7,8), (9.10)]
 

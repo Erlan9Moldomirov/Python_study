@@ -271,17 +271,6 @@
 # word = input()
 # dir(word)
 
-# def split(dict):
-#     keys = tuple(dict.keys)
-#     values = tuple(dict.values)
-#     return keys and values
-
-# dict = {'David': 'pogrammer', 'Jack': 'engineer', 'Max': 'dancer'}
-# k, v = split(dict)
-# print(f"Ключи - {k}")
-# print(f"Значения - {v}")
-
-
 # def listt(arg1, arg2):
 #     result = [arg1, arg2]
 #     return result

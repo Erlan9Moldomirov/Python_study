@@ -128,35 +128,35 @@
 
 # *****
 
-from random import shuffle
+# from random import shuffle
 
-names = ["Aibek", "Joomart", "Adinai", "Ermek", "Atai", "Aslan", "Lyazat", "Salavat", "Daniyar", "Bolotbek", "Alymbek", "Dastan", "Maksat"]
+# names = ["Aibek", "Joomart", "Adinai", "Ermek", "Atai", "Aslan", "Lyazat", "Salavat", "Daniyar", "Bolotbek", "Alymbek", "Dastan", "Maksat"]
 
-shuffle(names)
+# shuffle(names)
 
-total = 13  
-num = 4  
+# total = 13  
+# num = 4  
 
-team_size = total // num  
-remainder = total % num  
+# team_size = total // num  
+# remainder = total % num  
 
-teams = [] 
+# teams = [] 
 
-start = 0
+# start = 0
 
-for i in range(num):
-    end = start + team_size 
+# for i in range(num):
+#     end = start + team_size 
 
-    if i < remainder:
-        end += 1 
+#     if i < remainder:
+#         end += 1 
 
-    team = names[start:end]
-    teams.append(team) 
+#     team = names[start:end]
+#     teams.append(team) 
 
-    start = end 
+#     start = end 
 
-for i, team in enumerate(teams):
-    print(f"Команда {i+1}: {', '.join(team)}")
+# for i, team in enumerate(teams):
+#     print(f"Команда {i+1}: {', '.join(team)}")
 
 # import datetime
 # currenttime = datetime.datetime.now()

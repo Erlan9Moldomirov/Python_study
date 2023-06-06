@@ -11,6 +11,8 @@
 # with open("users.txt", "a", encoding="utf-8") as file:
 #     file.write(f"Ваш логин - {login}, Ваш пароль {password}")
 
+#******
+
 # try:
 #     with open("new.txt", "r") as file:
 #         s = file.read()
@@ -19,6 +21,7 @@
 # except FileNotFoundError:
 #     print("Файл не найден")
 
+#******
 
 # try:
 #     with open("users.txt", "r", encoding= "utf-8") as file:
@@ -39,6 +42,8 @@
 # with open(file_name ,"r") as file:
 #     text = file.read()
 
+#******
+
 # t_words =[]
 # for word in text.split():
 #     if "t" in word.lower():
@@ -46,6 +51,8 @@
 
 # for word in t_words:
 #     print(word)
+
+#******
 
 # numbers = [19, 3, 24, 5, 7]
 # file_name="users.txt"

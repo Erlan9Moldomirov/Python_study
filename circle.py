@@ -110,13 +110,13 @@
 #         print(i)
 
 
-list1 = [3, 5, 2, 1, 4]
-list2 = [4, 2, 6, 8, 1]
-a = list1 + list2
-b = set(a)
-print(b)
-c = list(b)
-print(c)
+# list1 = [3, 5, 2, 1, 4]
+# list2 = [4, 2, 6, 8, 1]
+# a = list1 + list2
+# b = set(a)
+# print(b)
+# c = list(b)
+# print(c)
 
 # list = []
 
