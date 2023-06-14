@@ -301,3 +301,81 @@
 # print(b.fact())
 # print(a.fact())
 # print(b.area())
+
+class Confectionary:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def describe(self):
+        print(f"{self.name} стоит {self.price} руб/кг")
+
+
+class Cake(Confectionary):
+    def describe(self):
+        print(f"Пражский торт стоит {self.price} руб/кг")
+
+class Candy(Confectionary):
+    def describe(self):
+        print(f"Шоколадные динозавры конфеты стоимостью {self.price} руб/кг")
+
+class Cookie(Confectionary):
+    pass
+
+cake = Cake("Пражский торт", 1200)
+candy = Candy("Шоколадные динозавры", 560)
+cookie = Cookie("Овсяное печенье с миндалем", 250)
+
+cake.describe()
+candy.describe()
+cookie.describe()
+
+class Soda:
+    def __init__(self, add):
+        self.add = add
+
+    def show_my_drink(self):
+        if self.add:
+            print("Газировка и", self.add)
+        else:
+            print("Обычная газировка")
+
+soda1 = Soda("лимон")
+soda1.show_my_drink()
+
+soda2 = Soda(None)
+soda2.show_my_drink() 
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def move(self):
+        pass
+
+class Hare(Animal):
+    def move(self):
+        return "прыгает"
+
+class Snake(Animal):
+    def move(self):
+        return "ползает"
+
+class Bird(Animal):
+    def move(self):
+        return "летает"
+    
+hare = Hare("Кролик")
+print(hare.name, hare.move())
+
+snake = Snake("Змея")
+print(snake.name, snake.move())
+
+bird = Bird("Птица")
+print(bird.name, bird.move())  
+
+
+
+
+
+
